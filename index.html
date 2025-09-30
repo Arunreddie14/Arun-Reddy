@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LWBHWE1EJZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LWBHWE1EJZ');
+</script>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -583,7 +592,7 @@
   document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    emailjs.sendForm("service_og66884", "template_mlr60n9", this)
+    emailjs.sendForm("service_og66884", "template_g4ttkqd", this)
       .then(function() {
         alert("✅ Message sent successfully! I'll get back to you soon.");
       }, function(error) {
